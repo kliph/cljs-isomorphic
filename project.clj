@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :min-lein-version "2.5.3"
   :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
-                 [org.clojure/clojurescript "1.9.293"]]
+                 [org.clojure/clojurescript "1.9.293"]
+                 [reagent "0.6.0"]]
   :plugins [[lein-cljsbuild "1.1.5"]]
   :clean-targets ^{:protect false} ["resources"]
   :cljsbuild {:builds [{:id "server"
