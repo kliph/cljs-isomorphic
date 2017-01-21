@@ -14,6 +14,10 @@ Download from http://example.com/FIXME.
 
     lein cljsbuild once server
 
+### Build both client and server code
+
+    lein cljsbuild once app server
+
 ### Running the server
 
     node resources/public/js/server-side/server.js

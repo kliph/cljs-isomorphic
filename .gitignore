@@ -15,4 +15,4 @@ pom.xml.asc
 *#*
 
 node_modules/
-resources/public/js/server-side/
+resources/public/js/
