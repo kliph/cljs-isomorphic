@@ -1,10 +1,10 @@
 # cljs-isomorphic
 
-FIXME: description
+Following along with http://blog.testdouble.com/posts/2016-01-21-isomorphic-clojurescript.html
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download from http://github.com/kliph/cljs-isomorphic
 
     yarn install
 
@@ -22,25 +22,7 @@ Download from http://example.com/FIXME.
 
     node resources/public/js/server-side/server.js
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
 ## License
-
-Copyright © 2017 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.

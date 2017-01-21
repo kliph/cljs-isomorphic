@@ -1,6 +1,6 @@
 (defproject cljs-isomorphic "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Following along with http://blog.testdouble.com/posts/2016-01-21-isomorphic-clojurescript.html"
+  :url "http://github.com/kliph/cljs-isomorphic"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :min-lein-version "2.5.3"
