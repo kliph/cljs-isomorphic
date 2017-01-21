@@ -3,7 +3,16 @@
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
-  :main ^:skip-aot cljs-isomorphic.core
-  :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :min-lein-version "2.5.3"
+  :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
+                 [org.clojure/clojurescript "1.9.293"]]
+  :plugins [[lein-cljsbuild "1.1.5"]]
+  :clean-targets ^{:protect false} ["resources"]
+  :cljsbuild {:builds [{:id "server"
+                        :source-paths ["src-server"]
+                        :compiler {:main cljs-isomorphic.server
+                                   :output-to "resources/public/js/server-side/server.js"
+                                   :output-dir "resources/public/js/server-side"
+                                   :target :nodejs
+                                   :optimizations :none
+                                   :source-map true}}]})

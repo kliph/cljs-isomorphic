@@ -13,3 +13,6 @@ pom.xml.asc
 .projectile
 *~*
 *#*
+
+node_modules/
+resources/public/js/server-side/

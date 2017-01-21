@@ -6,11 +6,17 @@ FIXME: description
 
 Download from http://example.com/FIXME.
 
+    yarn install
+
 ## Usage
 
-FIXME: explanation
+### Building the server
 
-    $ java -jar cljs-isomorphic-0.1.0-standalone.jar [args]
+    lein cljsbuild once server
+
+### Running the server
+
+    node resources/public/js/server-side/server.js
 
 ## Options
 
